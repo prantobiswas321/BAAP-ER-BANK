@@ -8,7 +8,7 @@ document.getElementById('login-submit').addEventListener('click', function () {
     const userPass = passField.value;
     //check email and password
     if (userEmail == 'engnr.pranto@gmail.com' && userPass == 'secretsoflife') {
-        window.location.href = "banking.html";
+        <a href="banking.html"></a>
     }
     else {
         console.log('Invalid user');
